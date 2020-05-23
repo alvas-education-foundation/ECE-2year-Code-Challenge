@@ -1,0 +1,21 @@
+import time
+complete = False
+user = [["Micheal",""],["E3$WT89x",""]]
+
+def Access():
+    for n in range (len(user)):
+        user[n][1] = input(user[n][0])
+
+while not complete:
+    Access()
+    username = input("What is the username?")
+    password = input("What is the password?")
+
+    if username == user[n][0]:
+        print("Good!")
+    else:
+        print("Input username again!")
+    if password == user[n][1]:
+        print("User has been identified, Welcome",username)
+    else:
+        print("Input password again")
