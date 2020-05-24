@@ -30,3 +30,8 @@ while correct:
         else:
             print("thankyou for trying to login")
             quit()
+# Code has syntax error
+ File "<string>", line 14
+    correct=0:
+             ^
+SyntaxError: invalid syntax
