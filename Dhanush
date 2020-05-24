@@ -9,3 +9,16 @@ while attempts<3:
         print('invalid username and password!')
         if attempts==3:
             print('Account locked')
+
+# Code is working partially. But even after providing correct details, again its is asking username and password, so that is not 
+#the right approch
+enter username:jack
+password:234
+234
+invalid username and password!
+enter username:Micheal
+Micheal
+password:e3$WT89x
+e3$WT89x
+you are successfully loged in!
+enter username:
