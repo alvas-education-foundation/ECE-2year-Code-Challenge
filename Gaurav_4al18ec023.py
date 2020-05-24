@@ -10,3 +10,14 @@ while attempts<3:
         if attempts==3:
             print('Account locked')
 
+# Code is detecting correct but loop is repeting, so rectify the error.
+enter username:jack
+jack
+password:234
+invalid username and password!
+enter username:Micheal
+Micheal
+password:e3$WT89x
+e3$WT89x
+you are successfully loged in!
+enter username:
