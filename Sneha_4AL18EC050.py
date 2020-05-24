@@ -7,4 +7,15 @@ while attempt<3:
     else:
             attempt+1
             print("Invalid username or password")
- print("Account Locked")
+print("Account Locked")
+
+
+# your code has bug
+Enter the username: Micheal
+Micheal
+Enter the password :e3$WT89x
+You have successfully logged in
+Enter the username: jas
+Enter the password :23
+Invalid username or password
+Enter the username: 
