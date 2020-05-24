@@ -11,3 +11,7 @@ while total_attempt<3:
                 if total_attempt==3:
                    print(“account blocked")
                           
+# your code has bug
+Unable to decode the command from the command line:
+UnicodeEncodeError: 'utf-8' codec can't encode character '\udce2' in position 67: surrogates not allowed
+>>> 
