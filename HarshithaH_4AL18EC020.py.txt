@@ -1,0 +1,25 @@
+invalidAttemptCount = 0
+
+def inputCredentials():
+    username = raw_input("Enter username: ")
+    password = raw_input("Enter password: ")
+    
+    validateCredentials(username, password)
+
+def validateCredentials(use, pwd):
+    if use == "Micheal" and pwd == "e3$WT89x":
+        login(use)
+    else:
+        print "Invalid username or password"
+        global invalidAttemptCount
+        invalidAttemptCount = invalidAttemptCount + 1
+        if invalidAttemptCount == 3:
+            print "Account locked"
+        else:    
+            inputCredentials()
+
+def login(use):
+    print "Welcome " + use
+    print "You have successfully logged in!"
+
+inputCredentials()
